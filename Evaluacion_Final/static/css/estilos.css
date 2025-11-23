@@ -1,0 +1,40 @@
+body {
+    height: 100vh;                        /* Ocupa toda la pantalla */
+    display: flex;
+    justify-content: center;              /* Centrado horizontal */
+    align-items: center;                  /* Centrado vertical */
+    gap: 30px;
+    background-color: #f2f2f2;
+}
+
+/* Estilo general de los botones */
+.btn {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+
+    border-radius: 6px;
+    transition: transform 0.2s ease;
+}
+
+/* Colores individuales */
+.btn:nth-of-type(1) {
+    background-color: #b300b3; /* morado */
+}
+
+.btn:nth-of-type(2) {
+    background-color: #7bd300; /* verde */
+}
+
+/* Efecto hover */
+.btn:hover {
+    transform: scale(1.05);
+}
+
